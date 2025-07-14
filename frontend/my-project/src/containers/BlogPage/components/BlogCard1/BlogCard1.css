@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.BlogCard1{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 68vh;
+}
+.BlogPost>p{
+    color: rgba(35, 37, 54, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.BlogPost>h1{
+    color: rgba(35, 37, 54, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.BlogPost>h3{
+    color: rgba(35, 37, 54, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.BlogPost>h3>span{
+    color: rgba(89, 46, 169, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.BlogPost>h4{
+    color: rgb(72, 72, 72);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.Flex-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.Blog-image{
+    width: 650px;
+}
+.btt-blogcard1{
+    width: 240px;
+    height: 6vh;
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px rgba(35, 37, 54, 1);
+    margin-top: 45px;
+    border-radius: 10px;
+}
